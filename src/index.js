@@ -9,6 +9,5 @@ const DATA = [
   { id: "todo-2", name: "Repeat", completed: false }
 ];
 
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<App subject="Clarice" />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<App tasks={DATA} />, document.getElementById("root"));
